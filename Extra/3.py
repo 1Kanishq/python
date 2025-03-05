@@ -14,3 +14,4 @@ print(even_odd(20))
  #or
 
 num = int(input('enter the number'))
+print(even_odd(num))

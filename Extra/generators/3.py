@@ -23,4 +23,6 @@ def palli_num(sv,ev):
 print(list(palli_num(sv,ev)))
 
 
-# 3
+# 3 
+
+

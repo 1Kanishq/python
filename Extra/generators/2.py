@@ -6,8 +6,9 @@ def string(list1):
         if type(i) == str:
             yield i
 var = string(list1)
-print(list(var))
+print(list(var))     # --> storing in variable
 
 # or
 
-print(list(string(list1)))
+print(list(string(list1)))  # ---> direct print
+

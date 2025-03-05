@@ -16,4 +16,5 @@ def sam():
 sam()
 
 # instead we use a variable to store the value or directly print it
-print(sam())
+
+print(sam()) 

@@ -1,0 +1,5 @@
+var = open(r'C:\Users\AAKASH\Desktop\Fh.py','r')
+# print(var.read())
+print(var.readline())
+print(var.readlines())
+var.close()

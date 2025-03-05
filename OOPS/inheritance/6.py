@@ -11,3 +11,4 @@ class charcters(Upper,Lower,Number):
     char = '!,#,$,%,^,&,*,(),{},[],?,/' 
 
 print(charcters.upper_case,charcters.lower_case)
+

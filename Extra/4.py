@@ -10,3 +10,16 @@ def prime(num):
 # prime(2)
 prime(5)
 prime(2)
+
+#    Other method
+
+def primeno(n):
+    cont = 0
+    for i in range(1,n+1):
+        if n % i == 0:
+            cont += 1
+    if cont == 2:
+        return 'prime no'
+    else :
+        return 'not prime'
+    
