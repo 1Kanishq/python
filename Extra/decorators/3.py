@@ -21,7 +21,8 @@ def dec_time(func):
 def loop():
     for i in range(0,100):
         print(i)
-loop()   # loop = decorator_name(loop)
+loop()   # loop = decorator_name(loop\\
+d
 
 @dec_time
 def whileloop():

@@ -3,7 +3,7 @@ class clg:
     cloc='Ghaziabad'
     cboard='state'
 
-    def __init__(self,name,rollno,branch,YOP):z 
+    def __init__(self,name,rollno,branch,YOP):
         self.name = name
         self.rollno= rollno
         self.branch= branch
@@ -16,5 +16,4 @@ class clg:
         print('YOP',self.YOP)
     
     @classmethod
-    def disp cls(cls):
-        
+    # def disp cls(cls):

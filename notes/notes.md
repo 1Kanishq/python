@@ -149,3 +149,54 @@ B-> Built in Scope
             a=10 <-------Enclosed / non-local scope
             def inner():
                 a=100 <---------local scope
+
+# Functions in Python
+
+## Overview
+Functions in Python are reusable blocks of code that perform a specific task. They help in organizing code, making it more readable, and avoiding repetition.
+
+## Types of Functions
+1. **Built-in Functions** – Predefined functions like `print()`, `len()`, `type()`, `sum()`, etc.
+2. **User-defined Functions** – Functions created by the user using the `def` keyword.
+
+## Creating a Function
+A function is defined using the `def` keyword.
+
+### Syntax:
+```python
+def function_name(parameters):
+    """Optional docstring"""
+    # Function body
+    return value  # (optional)
+```
+
+## Example of a Simple Function
+```python
+def greet():
+    print("Hello, World!")
+
+greet()  # Output: Hello, World!
+```
+
+## Function with Parameters
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)  # Output: 8
+```
+
+## Function with Default Parameters
+```python
+def greet(name="User"):
+    print(f"Hello, {name}!")
+
+greet()        # Output: Hello, User!
+greet("Alice") # Output: Hello, Alice!
+```
+
+## Lambda Function (Anonymous Function)
+```python
+square = lambda x: x * x
+print(square(4))  # Output: 16

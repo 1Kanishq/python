@@ -15,7 +15,7 @@
 # print([i**2 if i%2==0 else i**3 for i in range(int(input("Enter the number")))])
 
 # s='hai' op[('h',0),('h',1),('h',2),('h',1)]
-# print([(i,j) for i in 'hai' for j in range(len('hai'))])
+print([(i,j) for i in 'hai' for j in range(len('hai'))])
 
 # n=int(input("enter the number "))
 

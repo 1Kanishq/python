@@ -78,7 +78,6 @@ we can explain polymorphism in 3 ways:
     -> flexibility --
     -> collabration
     -> maintainbility
-    -> reusability
 
 # class:-
     it is a blue print which contains the properties and functionalities of an object.
@@ -86,7 +85,7 @@ we can explain polymorphism in 3 ways:
     It is a medium where data can be stored & accessed.
 
 # Object:-
-->  Instance of the class
+->  Instance of the class , Ek hisaa
 ->  Its a real time entity having some attributes.
 ->  Object belong to class
 ->  A class can contain 'n' no. of object.
@@ -113,23 +112,22 @@ we can explain polymorphism in 3 ways:
     -> if we r using object to modifies  it will afects/modifies the properties for the specific object.
 
 # Types of properties / states / members
+> When designing a class in object-oriented programming, the properties (or members) can be categorized based on their scope and behavior. Broadly, they are classified into Class Properties (Static Members) and Object Properties (Instance Members).
+
+
 
     1.) Class / Generic / static
 
-    --> Class prperties / class memeber
+    --> Class properties / class memeber
     -- these are the members of the class which are same or equal for each object
 
     ex ; if we consider bank as a class who are the class members - who have the account in it  and Bank_name, addr, Branch manager...will be same for every member of the class
 
     2.) Object / specific / dynamic
-    --> object Properties: 
-    these are the members of class different from all the object.
+    --> object Properties / Object Members: 
+    --- These are the members of class different for all the object.
 
     ex: if we consider bank as a class who are the class members who have the account in it and customer_name ,addr ,accno.,addharno., phno,balance... will be different for every member of the class
-    
-# Method/Fuction
-    function defined inside a class is known as method.
-
 
 # Constructor/init/initialization:
    > It is an inbuilt method which is used to initialize the members of the objects.
@@ -142,9 +140,13 @@ we can explain polymorphism in 3 ways:
    > we can use other var instead of self but according to the industrial standards we use 'self'.
 
    > syntax to create constructors;
+            class Clss_name:
+                def __init__(self,args)
+                    self.args = var
 
-
-# Methods
+# Method/Fuction
+    function defined inside a class is known as method.
+    
    > Methods are used to provide functionalities to the objects.
 
    > There are 3 types of methods:
@@ -175,7 +177,7 @@ we can explain polymorphism in 3 ways:
         class_name.method_name(args)
 
 # Static
-> These are niether related to class method nor object mthod .
+> These are niether related to class method nor object method .
 > these are used 
 > It doesnt take any mandatory argument , It is indepent of object/instance.
 
@@ -198,7 +200,7 @@ syntax:
 
 # Inheritance:
 
-# Pol
+# Polymorphism
 > It is the method of making the same method or operatr to work on two opertions or more than two different tyes of inheritance.
 
 > For example: 
@@ -206,7 +208,7 @@ syntax:
 
 Types:
 1) > Method Overloading:
-        >It is the method of usingthe same method on two operator or more than two types of operation.
+        >It is the method of using the same method in 2 or more than 2 different types of operation.
         >In Python Latest method overrides the previous method means it is not possible to perform method overloading in python.
         >However if we want to use the previous methods or waste methods than we have to store the address of the previous method inside the new variable and that new variable which acts as a new method, this process is known as ----> Monkey patching.
 
@@ -278,7 +280,7 @@ Types:
                             def method_name(self,args):
                                 pass
 
-    2. Abstract class: if a class contain atleast 1 abstract method than it is known as abstract method.
+    2. Abstract class: if a class contain atleast 1 abstract method than it is known as abstract class.
                     -> it should be child class of 'ABC' class,   ABC = Abstract Base Class
                     -> Object creation is not possible in abstract class.
 
@@ -294,3 +296,6 @@ Types:
     --> In Concrete class object creation is possible.
     --> We will Override the abstract method by providing impelmentaion inside the code.
     --> 
+
+>Polymorphism
+It is the method of using same operator or method to perform  two or more than 2 operations. 

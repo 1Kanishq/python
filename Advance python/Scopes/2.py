@@ -16,6 +16,7 @@ def outer():
     def inner():
        x=99
        print('Inside the iner function--',x)
+    inner()
 outer()
-print('outside',a )
+print('outside',a)
 

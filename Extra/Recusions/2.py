@@ -15,4 +15,4 @@ def odd_num(n):
         if n%2 != 0:
             print(n)
 odd_num(n)
- 
+

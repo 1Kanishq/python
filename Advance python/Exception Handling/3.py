@@ -10,4 +10,4 @@ elif age >=18:
 
 else:
     print('Sorry !! its too late for u')
-    raise AgeErro55r('This is userdefined error') # type: ignore
+    raise AgeErro55r('This is userdefined error')  # type: ignore

@@ -10,20 +10,20 @@ def instagram(func):
     return inner
 
 
-def kanishq():
-    print("Watching Reels")
-kanishq()
+# def kanishq():
+#     print("Watching Reels")
+# kanishq()
 
-print('='*40)
+# print('='*40)
 
 @instagram
 def kanishq():
     print("Watching Reels")
 kanishq()
 
-print('='*40)
-@instagram
-def mohit():
-    print("messaging")
-mohit()
+# print('='*40)
+# @instagram
+# def mohit():
+#     print("messaging")
+# mohit()
 

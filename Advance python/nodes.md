@@ -80,6 +80,8 @@ this variable returns a map object so to get the required output we have to type
 
 if we want to iterate 2 collection at a time then we use zip fuction.
 
+# Dictionary Comprehension: 
+
 var = {k:v for val1 in collection}
 var = {k:v for val1 in collection if (coll1,coll2)}
 var= {k:v for val1 in collection if condition}
@@ -106,7 +108,7 @@ var= {k:v v1 if condition else v2 for val in collection }
 
 > Module:
 
-1.  Module is a file which contains n number of instructions
+1.  Module is a file which contains n number of instructions/methods
     Example:
     ---> keyword , math, time, random, copy, functools, re
 
@@ -166,7 +168,7 @@ There are 2 types of modules:
         > read all the lines from the file.
         > return a list containing all the lines as substring.
         syntax : data = var.readlines()
-> 3. Append mode('a'):- In this mode it will not override the previous data instead add the new data with the existing data. 
+> 3. Append mode('a'):- In this mode it will not overwrite the previous data instead add the new data with the existing data. 
 
 # CSV file:
 > It is a file where the data is stored with seperated of comma.

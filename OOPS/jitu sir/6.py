@@ -8,7 +8,7 @@ class School:
         self.rollno = b
         self.addr = c
     def std_info(self):
-        print(f'name of the student{self.ename}, rollno of the student is{self.rollno}\n, address is {self.addr}')
+        print(f'name of the student{self.sname}, rollno of the student is{self.rollno}\n, address is {self.addr}')
 
     def change_addr(self):
         self.addr =eval(input("Enter the new address: "))
