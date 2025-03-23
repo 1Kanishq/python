@@ -87,7 +87,7 @@ print(l) # Also update the original list
 
 # 13. clear()
 
-# celo copy and deep copy
+#shalow copy and deep copy
 
 # general copy
 list1=[1,2,3,4,5]

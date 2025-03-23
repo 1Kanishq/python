@@ -19,7 +19,7 @@
 
 # print(len(s)) # 8
 
-# 5-> tuple() : able to conert a list into tuple
+# 5-> tuple() : able to convert a list into tuple
 
 # l=[1,2,3,4,5]
 # print(tuple(l)) # (1, 2, 3, 4, 5)

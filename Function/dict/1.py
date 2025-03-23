@@ -15,12 +15,12 @@
 # 4-> pop() : pop can able to pop any value at any particular key value
 
 # dict={1:"hello",2:"Bye",3:"Good"}
-# print(dict.pop(2)) # Bye
+# print(dict.pop(4)) # Bye
 
 # 5-> popitem() : popitem can able to pop the item at the end of the dictionary
 
-# dict={1:"hello",2:"Bye",3:"Good"}
-# print(dict.popitem()) # (3, 'Good')
+dict={1:"hello",2:"Bye",3:"Good"}
+print(dict.popitem()) # (3, 'Good')
 
 # 6.-> copy() : We can able to make a copy of the sample dictionary
 
@@ -41,11 +41,11 @@
 # print(dict.items()) # will not change the orginal dictionary values
 
 # 8. setdefault() : able to get key value pair if that doesn't exist it will create one key value pair
-dict={1:"hello",2:"Bye"}
-print(dict.setdefault(2)) # Bye 
-print(dict.setdefault(5,"yellow"))
-print(dict.setdefault(1,"nice"))
-print(dict.items()) # dict_items([(1, 'hello'), (2, 'Bye'), (5, 'yellow')])
+# dict={1:"hello",2:"Bye"}
+# print(dict.setdefault(2)) # Bye 
+# print(dict.setdefault(5,"yellow"))
+# print(dict.setdefault(1,"nice"))
+# print(dict.items()) # dict_items([(1, 'hello'), (2, 'Bye'), (5, 'yellow')])
 # can able to change the original dictionary by adding the value it the value doesn't exist in the dict
 # but cannot change the existing values inside dict
 
@@ -58,11 +58,11 @@ print(dict.items()) # dict_items([(1, 'hello'), (2, 'Bye'), (5, 'yellow')])
 #  value is optional and Default value is none
 # Syntax: dict.fromkeys(iterable, value) 
 
-# l=[1,2,3,4,5,6]
-# # t=(1,2,3,4,5)
-# # set={1,2,3,4,5}
-# dict1=dict.fromkeys(l)
-# print(dict1)
+l=[1,2,3,4,5,6]
+# t=(1,2,3,4,5)
+# set={1,2,3,4,5}
+dict1=dict.fromkeys(l)
+print(dict1)
 
 # 11. update() : able to update or modify the dictionary with new key value pairs.
 # dict={1:"hello",2:"Yellow",3:"Bye"}
@@ -70,21 +70,23 @@ print(dict.items()) # dict_items([(1, 'hello'), (2, 'Bye'), (5, 'yellow')])
 # print(dict)
 
 # How to fectch keys and values
+
 # 1. var[key]
 # get() --> It dosen't through any error if the key is not present inside the dict
 # keys()---> shows all the keys present
 # values()---> shows all the values present
 #  items()---> shows all the keyvalue pairs
-d = {'a':10,'b':20,'c':100}
-d.update({'j':99,'k':36,'i':77}) #We passing keys and values so we have to use {}
-print(d)
 
-# setdefault() 
-d.setdefault('z')
-print(d)
-d.setdefault('x',0)
-print(d)
-d.setdefault('a',200)   # It will not update the existing values
-print(d)
+# d = {'a':10,'b':20,'c':100}
+# d.update({'j':99,'k':36,'i':77}) #We passing keys and values so we have to use {}
+# print(d)
 
-# fromkeys() its uses 
+# # setdefault() 
+# d.setdefault('z')
+# print(d)
+# d.setdefault('x',0)
+# print(d)
+# d.setdefault('a',200)   # It will not update the existing values
+# print(d)
+
+# # fromkeys() its uses 
