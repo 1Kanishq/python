@@ -1,10 +1,10 @@
 # WAp to check the class properties with the objects 
 class zoo:
-    a='ape'
+    a='ape'   # Properties of the class
     b='bandar'
     c='crocodile'
 
-kanishq=zoo()
+kanishq=zoo() # objects of the class
 harsh=zoo()
 
 print(zoo.a,zoo.b,zoo.c)

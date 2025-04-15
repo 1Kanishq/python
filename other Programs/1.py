@@ -1,4 +1,4 @@
-# WAP to extract all the string present insidde a list whose lenght is greater than 3
+# WAP to extract all the string present inside a list whose lenght is greater than 3
 
 a = [10,'heelo',4+5j,3.4,23,'ab','Python']
 out=[]

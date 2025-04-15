@@ -21,3 +21,6 @@ print(B.b)
 print('By Using objects')
 print(ob3.a)
 print(ob4.a)
+ob3.a=40 # Object properties changed 
+print(ob3.a)
+print(ob4.a)

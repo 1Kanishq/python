@@ -1,0 +1,17 @@
+📦 Python-Practice
+├── 📁 Basics
+│   ├── variables.py
+│   ├── loops.py
+│   └── functions.py
+├── 📁 Intermediate
+│   ├── oop.py
+│   ├── file_handling.py
+│   └── modules.py
+├── 📁 Advanced
+│   ├── decorators.py
+│   ├── threading.py
+│   └── api_requests.py
+├── 📁 Projects
+│   ├── todo_app/
+│   └── weather_app/
+└── README.md

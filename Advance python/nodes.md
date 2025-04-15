@@ -203,3 +203,47 @@ syntax: raise ErrorName('msg')
  syntax:    class AgeError(Exception):
                     pass
             Then Call it with the help of raise error
+
+# Parsing Technique
+Its is the process of increpting the data while sending 1 file to another.
+
+1) JSON ---> (String Parssing)
+2) Pickle -> byte Parssing
+
+# Types of Arguremnts
+
+1. Positional:
+
+2. keyword:
+-> function call
+--> no.of formal args = no. of actual arguments
+--- order & position does not matter
+--- data will b passed in key value form
+
+3. default :
+-> function declaration
+--> no. of formal args != no. of actual args
+---> order and position matters
+----> data will be passed in key = value form
+
+4. variable length :
+-> function declaration
+--> to catch n .no of positional arguments
+---> stores inside  of a tuple
+---> Denoted by  * args
+
+variable length keyword argument :
+->denoted by  **kw args
+--> fucntion declaration
+--> to catch n no. of keyword args
+---> store in the form of dictionary
+
+# Multi Threading 
+
+> It is a process of executing multiple threads at a time 
+> Basic unit of a programme.
+> thread is a object of the OS that is used to execute any programme
+> Every  thread has different flow
+# 2 ways to performe multi threading: (import module())
+1. Using Thread()
+2. Extending thread class

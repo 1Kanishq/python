@@ -9,8 +9,8 @@
 
 import sqlite3
 var= sqlite3.connect('student.db')
-a = var.cursor()
-a.execute("create table student('sname','roll','addr')")
+a = var.cursor() # Points in the database at the particular position
+var.execute("create table student('sname','roll','addr')")
 a.execute("insert into student values('Kanishq','28','ghaz')")
 a.execute("insert into student values('Mohit','29','ghz')")
 a.execute("insert into student values('Rohit','30','abc')")

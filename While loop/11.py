@@ -7,3 +7,11 @@ while i<len(str1):
         out+=(str1[i])
     i+=1
 print(out + str(len(out)))
+############### other way ###############
+out1=''
+i=0
+while i<len(str1):
+    if str1[i].isupper():
+        out1+=str1[i]
+    i+=1
+print(out1 + str(len(out1)))

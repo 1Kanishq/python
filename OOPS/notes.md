@@ -60,7 +60,7 @@ we can explain polymorphism in 3 ways:
     3). method overriding
 
 # method overloading
-     Its the method of using same methods i 2 or more than 2 diff types of operation
+     Its the method of using same methods in 2 or more than 2 diff types of operation
      > python does not support method overloading
 
 ================================================================================================================
@@ -92,7 +92,7 @@ we can explain polymorphism in 3 ways:
 
 # Q How to create a class & an object
 
-    class Class_name:   ---- class_name should be capital
+    class Class_name:   ---- class_name shouldcha be capital
             properties/states
             functionalities/behaviours
     obj = Class_name(args)

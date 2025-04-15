@@ -1,3 +1,39 @@
+## Type Casting in Python
+Type casting (or type conversion) in Python is the process of converting one data type into another. Python provides two types of type conversion:
+
+✅ 1. Implicit Type Conversion (Automatic Conversion)
+Python automatically converts one data type to another without user involvement.
+
+This happens when performing operations between different types.
+
+🔥 Example:
+# Integer to Float
+a = 5
+b = 2.5
+result = a + b  # int + float -> float
+print(result)    # Output: 7.5
+print(type(result))  # Output: <class 'float'>
+💡 When does implicit conversion occur?
+Integer to Float
+
+Integer/Float to Complex
+
+Boolean to Integer or Float
+
+✅ 2. Explicit Type Conversion (Type Casting by User)
+Explicit type conversion is done manually using predefined functions.
+
+🔥 Common Type Casting Functions
+Function	Description	Example
+int(x)	Converts x to an integer	int(5.6) → 5
+float(x)	Converts x to a float	float(5) → 5.0
+str(x)	Converts x to a string	str(10) → '10'
+bool(x)	Converts x to a boolean	bool(0) → False
+list(x)	Converts x to a list	list('abc') → ['a', 'b', 'c']
+tuple(x)	Converts x to a tuple	tuple([1, 2]) → (1, 2)
+set(x)	Converts x to a set	set([1, 2, 2]) → {1, 2}
+dict(x)	Converts x to a dictionary	dict([(1, 'a'), (2, 'b')]) → {1: 'a', 2: 'b'}
+ 
 # Sort Function
  its the function used for arranging items.
  either in ascending or decending order.
@@ -25,7 +61,7 @@ Syntax:-
     In for loop we dont hae to intialze, update the collection it autoaticlly get updated
 # range()
     range is a inbuilt function which is used to set the flow of collection by lower, upperlimit
-    syntax:
+    syntax: 
             range(startingpoint,endingpoint,step)
 
     whenever we deals with number we use range function.
